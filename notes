@@ -1,0 +1,80 @@
+window.onload -> initialize controls via IIFE
+controls:
+Tab - Create child
+Shift + Tab - create older sibling
+Ctrl + Tab - (next tab)
+Ctrl + Shift + Tab - (previous tab)
+Ctrl + t - (new tab)
+Ctrl + Alt + Tab - create dotted arrow > related object state
+
+Enter - Create sibling
+Shift + Enter - create new parent
+Ctrl + Enter - Create new
+Ctrl + Alt + Enter  - Create solid arrow > related object state
+
+Arrow Keys
+up - Move to prior sibling
+down - Move to next sibling
+left - Move to first parent
+right - Move to first child
+
+Left Mouse click - select / deselect
+Right Mouse click - (open formatter)
+Mouse Drag - move selected object / create selection area
+Ctrl + Mouse Drag - pan
+
+Scroll up - pan up
+Scroll down - pan down
+Scroll left - pan left
+Scroll right - pan right
+
+Ctrl + Scroll up - zoom in
+Ctrl + Scroll down - zoom out
+
+delete - delete selected
+
+Ctrlwq + a - select all
+
+********************
+Label State
+********************
+Esc - switch to Label State
+any characters - add characters to label
+Ctrl + a - select all
+
+********************
+Related Object State
+********************
+Enter - create new object at present level and connect
+Shift + Enter - create new object at parent level and connect
+Tab - create new object at child level and connect (this would be a separate line of children from the first)
+
+Left Mouse click - connect to clicked object
+Right Mouse click - cancel
+Esc - cancel
+********************
+
+Save
+Load
+
+Copy
+Paste
+
+Components:
+Solid Arrow
+Dotted Arrow
+Rounded Rec with text
+Child of Rounded Rec with text
+
+States:
+Selected
+
+Data:
+Can I store the entire thing in an SVG?
+
+Google:
+svg as json
+json as svg
+
+Concepts:
+svg groups
