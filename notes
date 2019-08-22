@@ -33,12 +33,12 @@ Ctrl + Scroll down - zoom out
 
 delete - delete selected
 
-Ctrlwq + a - select all
+Ctrl + a - select all
 
 ********************
 Label State
 ********************
-Esc - switch to Label State
+Esc - toggle Label State
 any characters - add characters to label
 Ctrl + a - select all
 
